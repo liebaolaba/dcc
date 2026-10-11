@@ -1,0 +1,10 @@
+
+.method public static constructor <clinit>()V
+    .registers 1
+
+    const-string v0, "labatect"
+
+    invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+
+    return-void
+.end method
